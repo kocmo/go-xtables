@@ -6,7 +6,7 @@ require (
 	bou.ke/monkey v1.0.2
 	github.com/gliderlabs/ssh v0.3.5
 	github.com/singchia/go-hammer v0.0.2-0.20220516141917-9d83fc02d653
-	github.com/kocmo/go-xtables v1.0.5
+	github.com/kocmo/go-xtables v0.0.0
 	github.com/stretchr/testify v1.8.1
 	github.com/vishvananda/netns v0.0.4
 	golang.org/x/crypto v0.31.0
