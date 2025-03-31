@@ -7,9 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"bou.ke/monkey"
 	"github.com/kocmo/go-xtables"
-	"github.com/kocmo/go-xtables/pkg/cmd"
 	"github.com/kocmo/go-xtables/pkg/network"
 	"github.com/stretchr/testify/assert"
 	"github.com/vishvananda/netns"
@@ -21,31 +19,31 @@ var (
 )
 
 func set() {
-	sandboxAddr := os.Getenv("SANDBOX_ADDR")
-	if sandboxAddr != "" {
-		sandboxUser := os.Getenv("SANDBOX_USER")
-		sandboxPassword := os.Getenv("SANDBOX_PASSWORD")
+	// sandboxAddr := os.Getenv("SANDBOX_ADDR")
+	// if sandboxAddr != "" {
+	// 	sandboxUser := os.Getenv("SANDBOX_USER")
+	// 	sandboxPassword := os.Getenv("SANDBOX_PASSWORD")
 
-		monkey.Patch(cmd.Cmd, func(name string, arg ...string) ([]byte, []byte, error) {
-			return cmd.SSHCmdPassword(sandboxAddr, sandboxUser, sandboxPassword,
-				name, arg...)
-		})
-	} else {
-		runtime.LockOSThread()
-		originns, _ = netns.Get()
-		newns, _ = netns.New()
-	}
+	// 	monkey.Patch(cmd.Cmd, func(name string, arg ...string) ([]byte, []byte, error) {
+	// 		return cmd.SSHCmdPassword(sandboxAddr, sandboxUser, sandboxPassword,
+	// 			name, arg...)
+	// 	})
+	// } else {
+	runtime.LockOSThread()
+	originns, _ = netns.Get()
+	newns, _ = netns.New()
+	// }
 }
 
 func unset() {
-	sandboxAddr := os.Getenv("SANDBOX_ADDR")
-	if sandboxAddr != "" {
-		monkey.UnpatchAll()
-	} else {
-		runtime.UnlockOSThread()
-		newns.Close()
-		originns.Close()
-	}
+	// sandboxAddr := os.Getenv("SANDBOX_ADDR")
+	// if sandboxAddr != "" {
+	// 	monkey.UnpatchAll()
+	// } else {
+	runtime.UnlockOSThread()
+	newns.Close()
+	originns.Close()
+	// }
 }
 
 func initEBTables(t *testing.T) {
