@@ -15,7 +15,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/singchia/go-xtables/pkg/cmd"
+	"github.com/kocmo/go-xtables/pkg/cmd"
 )
 
 var (

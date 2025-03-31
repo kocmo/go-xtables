@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/singchia/go-xtables"
-	"github.com/singchia/go-xtables/internal/xutil"
+	"github.com/kocmo/go-xtables"
+	"github.com/kocmo/go-xtables/internal/xutil"
 )
 
 type onTableLine func(line []byte) (TableType, error)

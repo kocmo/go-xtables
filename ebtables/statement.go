@@ -3,7 +3,7 @@ package ebtables
 import (
 	"strings"
 
-	"github.com/singchia/go-xtables"
+	"github.com/kocmo/go-xtables"
 )
 
 type Statement struct {

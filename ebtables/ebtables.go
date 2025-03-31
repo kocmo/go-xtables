@@ -18,7 +18,7 @@ package ebtables
 import (
 	"io"
 
-	"github.com/singchia/go-xtables/pkg/log"
+	"github.com/kocmo/go-xtables/pkg/log"
 )
 
 type EBTablesOption func(*EBTables)

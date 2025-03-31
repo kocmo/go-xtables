@@ -5,7 +5,7 @@ import (
 	"runtime"
 
 	"bou.ke/monkey"
-	"github.com/singchia/go-xtables/pkg/cmd"
+	"github.com/kocmo/go-xtables/pkg/cmd"
 	"github.com/vishvananda/netns"
 )
 

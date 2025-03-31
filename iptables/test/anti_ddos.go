@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/singchia/go-xtables"
-	"github.com/singchia/go-xtables/iptables"
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables"
+	"github.com/kocmo/go-xtables/iptables"
+	"github.com/kocmo/go-xtables/pkg/network"
 )
 
 func main() {

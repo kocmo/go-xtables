@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/singchia/go-xtables"
-	"github.com/singchia/go-xtables/pkg/constraint"
+	"github.com/kocmo/go-xtables"
+	"github.com/kocmo/go-xtables/pkg/constraint"
 )
 
 type Statement struct {

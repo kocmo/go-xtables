@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/singchia/go-hammer/tree"
-	"github.com/singchia/go-xtables"
+	"github.com/kocmo/go-xtables"
 )
 
 type WatcherType int

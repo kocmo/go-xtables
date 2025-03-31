@@ -4,10 +4,10 @@
 
 <div align="center">
 
-[![Go Reference](https://pkg.go.dev/badge/badge/github.com/singchia/go-xtables.svg)](https://pkg.go.dev/badge/github.com/singchia/go-xtables)
-[![Go](https://github.com/singchia/go-xtables/actions/workflows/go.yml/badge.svg)](https://github.com/singchia/go-xtables/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/badge/github.com/kocmo/go-xtables.svg)](https://pkg.go.dev/badge/github.com/kocmo/go-xtables)
+[![Go](https://github.com/kocmo/go-xtables/actions/workflows/go.yml/badge.svg)](https://github.com/kocmo/go-xtables/actions/workflows/go.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Go Report Card](https://goreportcard.com/badge/github.com/singchia/go-xtables)](https://goreportcard.com/report/github.com/singchia/go-xtables)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kocmo/go-xtables)](https://goreportcard.com/report/github.com/kocmo/go-xtables)
 ![Platform](https://img.shields.io/badge/platform-linux-brightgreen.svg)
 
 [English](./README.md) | 简体中文
@@ -24,7 +24,7 @@ Netfilter允许数据包在多个表和链进行过滤、转换和修改，其�
 
 Go-xtables就是对iptables, ebtables和arptables工具进行了封装，相比较其他库，额外提供ebtables和arptables的能力，全特性支持（对所有在man手册提及的扩展能力进行了封装），对外提供了链式调用和option模式，完整继承了几个tables里对用户的抽象，非常方便。
 
-查看 [iptables godoc](https://pkg.go.dev/github.com/singchia/go-xtables/iptables) 和 [ebtables godoc](https://pkg.go.dev/github.com/singchia/go-xtables/ebtables) 来了解70+ ```match```能力，50+ ```target```能力以10+ ```option```能力。
+查看 [iptables godoc](https://pkg.go.dev/github.com/kocmo/go-xtables/iptables) 和 [ebtables godoc](https://pkg.go.dev/github.com/kocmo/go-xtables/ebtables) 来了解70+ ```match```能力，50+ ```target```能力以10+ ```option```能力。
 
 **Matches:**
 
@@ -163,8 +163,8 @@ package main
 import (
 	"log"
 
-	"github.com/singchia/go-xtables/iptables"
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables/iptables"
+	"github.com/kocmo/go-xtables/pkg/network"
 )
 
 func main() {
@@ -338,4 +338,4 @@ ipt.Chain(iptables.ChainTypeOUTPUT).Policy(iptables.TargetTypeAccept)
 ## 许可证
 
 
-Released under the [Apache License 2.0](https://github.com/singchia/go-xtables/blob/main/LICENSE)
+Released under the [Apache License 2.0](https://github.com/kocmo/go-xtables/blob/main/LICENSE)

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/singchia/go-xtables"
-	"github.com/singchia/go-xtables/pkg/cmd"
+	"github.com/kocmo/go-xtables"
+	"github.com/kocmo/go-xtables/pkg/cmd"
 )
 
 func (iptables *IPTables) exec() ([]byte, error) {

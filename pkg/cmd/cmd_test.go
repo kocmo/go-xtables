@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/singchia/go-xtables/internal/sandbox"
+	"github.com/kocmo/go-xtables/internal/sandbox"
 	"github.com/stretchr/testify/assert"
 )
 

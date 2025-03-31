@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/singchia/go-xtables/internal/xutil"
+	"github.com/kocmo/go-xtables/internal/xutil"
 )
 
 func TestUnfoldDecimal(t *testing.T) {

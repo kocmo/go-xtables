@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/singchia/go-xtables/ebtables"
+	"github.com/kocmo/go-xtables/ebtables"
 )
 
 func main() {

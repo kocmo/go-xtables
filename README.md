@@ -4,10 +4,10 @@
 
 <div align="center">
 
-[![Go Reference](https://pkg.go.dev/badge/badge/github.com/singchia/go-xtables.svg)](https://pkg.go.dev/badge/github.com/singchia/go-xtables)
-[![Go](https://github.com/singchia/go-xtables/actions/workflows/go.yml/badge.svg)](https://github.com/singchia/go-xtables/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/badge/github.com/kocmo/go-xtables.svg)](https://pkg.go.dev/badge/github.com/kocmo/go-xtables)
+[![Go](https://github.com/kocmo/go-xtables/actions/workflows/go.yml/badge.svg)](https://github.com/kocmo/go-xtables/actions/workflows/go.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Go Report Card](https://goreportcard.com/badge/github.com/singchia/go-xtables)](https://goreportcard.com/report/github.com/singchia/go-xtables)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kocmo/go-xtables)](https://goreportcard.com/report/github.com/kocmo/go-xtables)
 ![Platform](https://img.shields.io/badge/platform-linux-brightgreen.svg)
 
 English | [简体中文](./README_cn.md)
@@ -24,7 +24,7 @@ English | [简体中文](./README_cn.md)
 
 Go-xtables(production-ready) is a wrapper for the iptables, ebtables, and arptables utils. It provides full features, extensions and abstractions from Netfilter, making it very convenient to use.
 
-Check out the [iptables godoc](https://pkg.go.dev/github.com/singchia/go-xtables/iptables) and [ebtables godoc](https://pkg.go.dev/github.com/singchia/go-xtables/ebtables)  to learn about the 70+ ```match``` capabilities, 50+ ```target``` capabilities, and 10+ ```option``` capabilities.
+Check out the [iptables godoc](https://pkg.go.dev/github.com/kocmo/go-xtables/iptables) and [ebtables godoc](https://pkg.go.dev/github.com/kocmo/go-xtables/ebtables)  to learn about the 70+ ```match``` capabilities, 50+ ```target``` capabilities, and 10+ ```option``` capabilities.
 
 **Matches:**
 
@@ -163,8 +163,8 @@ package main
 import (
 	"log"
 
-	"github.com/singchia/go-xtables/iptables"
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables/iptables"
+	"github.com/kocmo/go-xtables/pkg/network"
 )
 
 func main() {
@@ -333,4 +333,4 @@ If you want to contribute new features or help solve project problems, please fe
 
 ## License
 
-Released under the [Apache License 2.0](https://github.com/singchia/go-xtables/blob/main/LICENSE)
+Released under the [Apache License 2.0](https://github.com/kocmo/go-xtables/blob/main/LICENSE)

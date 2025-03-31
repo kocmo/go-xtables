@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/singchia/go-xtables"
+	"github.com/kocmo/go-xtables"
 )
 
 type CommandType int

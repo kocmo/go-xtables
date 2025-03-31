@@ -3,8 +3,8 @@ package iptables
 import (
 	"testing"
 
-	"github.com/singchia/go-xtables"
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables"
+	"github.com/kocmo/go-xtables/pkg/network"
 )
 
 func TestMatchAddrType(t *testing.T) {

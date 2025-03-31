@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/singchia/go-xtables"
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables"
+	"github.com/kocmo/go-xtables/pkg/network"
 )
 
 type TargetType int

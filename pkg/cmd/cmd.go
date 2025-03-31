@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/singchia/go-xtables/pkg/log"
+	"github.com/kocmo/go-xtables/pkg/log"
 	"golang.org/x/crypto/ssh"
 )
 

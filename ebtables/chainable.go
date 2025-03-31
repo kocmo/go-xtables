@@ -3,7 +3,7 @@ package ebtables
 import (
 	"io"
 
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables/pkg/network"
 )
 
 func (ebtables *EBTables) Table(table TableType) *EBTables {

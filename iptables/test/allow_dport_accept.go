@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/singchia/go-xtables/iptables"
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables/iptables"
+	"github.com/kocmo/go-xtables/pkg/network"
 )
 
 func AllowDPortAccept() {

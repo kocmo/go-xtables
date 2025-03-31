@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/singchia/go-xtables/iptables"
+	"github.com/kocmo/go-xtables/iptables"
 )
 
 func FlushALL() {

@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"bou.ke/monkey"
-	"github.com/singchia/go-xtables"
-	"github.com/singchia/go-xtables/pkg/cmd"
-	"github.com/singchia/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables"
+	"github.com/kocmo/go-xtables/pkg/cmd"
+	"github.com/kocmo/go-xtables/pkg/network"
 	"github.com/stretchr/testify/assert"
 	"github.com/vishvananda/netns"
 )
