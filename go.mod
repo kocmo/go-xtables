@@ -3,7 +3,6 @@ module github.com/kocmo/go-xtables
 go 1.18
 
 require (
-	github.com/singchia/go-hammer v0.0.2-0.20220516141917-9d83fc02d653
 	github.com/stretchr/testify v1.8.1
 	github.com/vishvananda/netns v0.0.4
 )

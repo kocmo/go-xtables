@@ -1,0 +1,1 @@
+Copied trie impl from archived repository https://github.com/singchia/go-hammer

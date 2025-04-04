@@ -11,10 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/singchia/go-hammer/tree"
-
 	"github.com/kocmo/go-xtables"
 	"github.com/kocmo/go-xtables/pkg/network"
+	"github.com/kocmo/go-xtables/pkg/tree"
 )
 
 type MatchType int
